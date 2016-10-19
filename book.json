@@ -1,0 +1,50 @@
+{
+    "plugins": [
+        "github",
+        "-search",
+        "advanced-emoji",
+        "emphasize",
+        "splitter",
+        "codeblock-filename",
+        "toc2",
+        "edit-link",
+        "-fontsettings"
+    ],
+    "pluginsConfig": {
+        "github": {
+            "url": "https://github.com/hc-coder"
+        },
+        "sharing": {
+            "facebook": false,
+            "twitter": false,
+            "google": false,
+            "weibo": true,
+            "instapaper": false,
+            "vk": false
+        },
+        "fontsettings": {
+            "theme": "white",
+            "family": "sans",
+            "size": 2
+        },
+        "lunr": {
+            "maxIndexSize": 1000000,
+            "ignoreSpecialCharacters": false
+        },
+        "edit-link": {
+            "base": "https://github.com/hc-coder/hc-translate-mocha/edit/master/",
+            "label": "Edit This Page"
+        }
+    },
+    "author": "hc-coder",
+    "generator": "site",
+    "title": "Mocha 中文翻译",
+    "language": "zh-hans",
+    "gitbook": "3.2.1",
+    "description": "Gitbook 模板",
+    "links" : {
+        "sidebar" : {
+            "松果博客" : "http://www.sgboke.com"
+        }
+    }
+}
